@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
+
+body{font-family: 'Poppins', sans-serif;}
+
+/* Selector universal */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Declaración de clase*/ 
+.titurojo{
+	color: #c23616;
+}
+
+
+
+/* Selectores de ID*/
+
+
+#contenedor{
+	width: 960px;
+	height: 2000px;
+	background-color: #f6e58d;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+
+#cabecera{
+	width: 960px;
+	height: 200px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+#menu{
+	width: 960;
+	height: 150;
+	background-color: #c23616;
+}
+
+#menu a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+
+#menu li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:#c23616;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+   
+#menu li:hover{
+    background-color:#b33939;
+    color:#fff;
+    }
+
+
+
+
+#contenido{
+	width: 960px;
+	height: 1690px;
+	background-color: #F8EFBA;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+
+
+#pie{
+	width: 960px;
+	height: 50px;
+	background-color: #b33939;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+
+}
+
+
+#recuadroimg{
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	
+}
+
+#tituderece{
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+#cuadrodetexto{
+	text-align: justify-all;
+	margin: 20px;
+	padding: 10px;
+}
+
+
